@@ -55,5 +55,11 @@
     "requirejs": "^2.1.20",
     "sinon": "^1.17.1",
     "supertest": "^1.1.0"
+  },
+
+  "scripts": {
+    "postinstall": "bower install",
+    "start": "node server.js"
   }
+
 }
