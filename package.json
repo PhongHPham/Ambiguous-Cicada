@@ -61,7 +61,7 @@
     "postinstall": "bower install",
     "start": "mongod",
     "start": "npm start",
-    "start": "./client-mobile ionic serve"
+    "start": "./client-mobile/www ionic serve"
   }
 
 }
