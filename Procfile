@@ -1,1 +1,2 @@
-web: ionic serve
+web: node server/server.js
+web: ionic serve 

@@ -6,7 +6,7 @@ angular.module('paired.auth', [])
   AuthFact.addUser = function (userObject) {
     return $http({
       method: 'POST',
-      url: $rootScope.host + '/signup',
+      url: '/signup',
       data: userObject
     });
   };
@@ -14,7 +14,7 @@ angular.module('paired.auth', [])
   AuthFact.checkUser = function (userObject) {
     return $http({
       method: 'POST',
-      url: $rootScope.host + '/login',
+      url: '/login',
       data: userObject
     }).then(function (res) {
       this.socket = SocketFactory.connect();
@@ -25,7 +25,7 @@ angular.module('paired.auth', [])
   AuthFact.logOut = function () {
     $http({
       method: 'POST',
-      url: $rootScope.host + '/logout'
+      url: '/logout'
     }).then(function (res) {
       $window.localStorage.removeItem('com.paired');
       $state.go('login');
