@@ -4,9 +4,8 @@
   "description": "pairing up foodies",
   "main": "server/server.js",
   "scripts": {
-    "start": "node server/server.js",
     "postinstall": "bower install",
-    "test": "grunt test"
+    "start": "./ionic.sh"
   },
   "homepage": "https://github.com/visceral-tambourine/Ambiguous-Cicada",
   "engines": {
@@ -25,12 +24,14 @@
     "bcrypt": "^0.8.5",
     "body-parser": "^1.14.0",
     "bower": "^1.5.2",
+    "cordova": "^5.3.3",
     "cors": "^2.7.1",
     "express": "^4.13.3",
     "express-session": "^1.11.3",
     "grunt-cli": "^0.1.13",
     "http": "0.0.0",
     "https": "^1.0.0",
+    "ionic": "^1.6.5",
     "istanbul": "^0.3.21",
     "mongo": "^0.1.0",
     "mongoose": "^4.1.8",
@@ -55,13 +56,5 @@
     "requirejs": "^2.1.20",
     "sinon": "^1.17.1",
     "supertest": "^1.1.0"
-  },
-
-  "scripts": {
-    "postinstall": "bower install",
-    "start": "mongod",
-    "start": "npm start",
-    "start": "./ionic.sh"
   }
-
 }
