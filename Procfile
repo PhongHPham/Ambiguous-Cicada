@@ -1,2 +1,2 @@
 web: node server/server.js
-serve: ionic serve
+serve: ./client-mobile ionic serve
