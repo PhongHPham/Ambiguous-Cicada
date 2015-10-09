@@ -15,7 +15,7 @@ angular.module('paired', [
 ])
 
 .run(function($ionicPlatform, $rootScope) {
-  $rootScope.host = 'https://visceral-paired.herokuapp.com' + process.env.PORT || 'http://localhost:3000';
+  $rootScope.host = 'https://visceral-paired.herokuapp.com:' + process.env.PORT || 'http://localhost:3000';
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
