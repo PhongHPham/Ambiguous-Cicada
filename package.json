@@ -59,7 +59,9 @@
 
   "scripts": {
     "postinstall": "bower install",
-    "start": "node server.js"
+    "start": "mongod",
+    "start": "npm start",
+    "start": "client-mobile/wwww ionic serve"
   }
 
 }
