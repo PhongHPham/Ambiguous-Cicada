@@ -9,7 +9,7 @@
   },
 
   "resolutions": {
-    "angular": "latest"
+    "angular": "~1.4.6"
   }
 }
 
