@@ -1,14 +1,14 @@
 {
   "name": "paired",
   "version": "1.0.0",
-  "description": "setting up paireds",
+  "description": "pairing up foodies",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
     "postinstall": "bower install",
     "test": "grunt test"
   },
-  "homepage": "https://github.com/Ambiguous-Cicada/Ambiguous-Cicada",
+  "homepage": "https://github.com/visceral-tambourine/Ambiguous-Cicada",
   "engines": {
     "node": "4.1.0"
   },
@@ -16,10 +16,10 @@
     "type": "git",
     "url": "https://github.com/Ambiguous-Cicada/Ambiguous-Cicada.git"
   },
-  "author": "ambiguous-cicada",
+  "author": "visceral-tambourine",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ambiguous-Cicada/Ambiguous-Cicada/issues"
+    "url": "https://github.com/visceral-tambourine/Ambiguous-Cicada/issues"
   },
   "dependencies": {
     "bcrypt": "^0.8.5",
