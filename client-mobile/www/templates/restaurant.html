@@ -1,8 +1,18 @@
 <ion-view view-title="Restaurants">
 <ion-content>
   <ion-list>
-    <ion-item ng-repeat="restaurant in restaurantData" class="list-item">
-      {{restaurant.name}}: {{restaurant.rating}} : {{restaurant.distance}}
+    <ion-item ng-repeat="restaurant in restaurantData" class="list-item
+      item-light">
+      <div class="row">
+        <div class="col col-75">
+          <div class="row"><h2>{{restaurant.name}}</h2></div>
+          <div class="row"><h3>Rating: {{restaurant.rating}}</h3></div>  
+          <div class="row"><h3>{{restaurant.distance | number:1}}miles</h3></div>
+        </div>
+         <div class="col"><img  src={{restaurant.image_url}}
+          style="height:4rem;border-radius:1px">
+         </div>
+      </div>
       <ion-option-button class="button-calm" ng-click="choose(restaurant)">
         GO
       </ion-option-button>

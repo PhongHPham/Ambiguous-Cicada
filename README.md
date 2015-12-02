@@ -8,9 +8,9 @@ Refer to our [Documentation](DOCS.md) for internal details of our app.
 
 ## Original paired Team
 
-  - __Product Owner__: Daniel O'Leary
-  - __Scrum Master__: JT Knox
-  - __Development Team__: Niraj Vora, Michael Junio, Daniel O'Leary, JT Knox
+  - __Product Owner__: Aaron Norby
+  - __Scrum Master__: Robert J Forloine
+  - __Development Team__: Phong Pham, Alex Hutchison, Robert J Forloine, Aaron Norby
 
 ## Table of Contents
 

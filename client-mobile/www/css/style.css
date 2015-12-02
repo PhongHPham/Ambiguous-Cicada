@@ -106,6 +106,10 @@ div.image {
 Restaurant View
 ***************/
 
- .item-complex .item-content, .item{
-    background-color: #28c948 !important;
-}
+/* .item-complex .item-content, .item{ */
+/*   background-color: #28c948 !important; */
+/* } */
+
+/* .item-complex .item-content>img { */ 
+/*    height: 2rem !important; */ 
+/* } */ 
